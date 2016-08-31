@@ -1,0 +1,56 @@
+extends layout
+
+block content
+
+	+nav("Conner's Corner", "dropdown_menu")
+		+nav_item( "index.html", "active" ) Home
+		+nav_item( "projects.html" ) Projects
+		+nav_item( "about.html" ) About
+		
+	h1= title
+	
+	p Welcome to #{title}
+	
+	.row
+		.col-md-4.col-sm-6.col-xs-12
+			img(src="/images/Profile/Conner0716-6789_SQ.jpg",class="img-circle person")
+			+panel("Insightful Guide", "converse")
+				p Good answers come from good questions. I believe that
+					| software is converstation with our wants and needs, both of which
+					| change over time. 
+				p We can use metrics to measure how close we are (and I have implemented many), 
+					|but ultimately we are guided
+					| by the users of our products. The secret is to listen to them.
+				p It is vital that we can communicate. Having over twenty years in the software industry
+					| I can help avoid prior mistakes, while at the same time show how to navigate towards the future
+					
+		.col-md-4.col-sm-6.col-xs-12
+			img(src="/images/Dev/Swift.png",class="img-circle person")
+			+panel("Diligent Developer", "diligent")
+				p Once the software has been designed you need someone who can execute the project plan.
+					| As Steve Jobs put it: "Real artists ship."
+				p I have built several on top of iTunes store apps, and have equally gotten
+					| several late projects back on track after joining. It is said that the last 10% of a project
+					| takes 80% of the time. It doesn't have to.			
+			
+		.col-md-4.col-sm-6.col-xs-12
+			img(src="/images/Profile/Conner0716-6909_SQ.jpg",class="img-circle person")
+			+panel("Product Dad", "explorer")
+				p Over the past few years I have become a dad, and I realize the values
+					| that work well with fatherhood work well for products. My approach to fatherhood
+					| is 80% joy and 20% discipline. There are certain times that things need to get
+					| back to order, but most of the time, being helpful and encouraging is the best
+					| way to get the most out of a team. 
+				p My wife, also tells people that I had a 
+					| dad sense of humor for years, but only finally got the children to match it to.
+					| They, too, will be good with puns.
+			
+			
+			
+
+		
+		
+		
+		
+	
+		

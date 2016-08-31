@@ -1,0 +1,33 @@
+extends layout
+
+block content
+
+	+nav("Conner's Corner", "dropdown_menu")
+		+nav_item( "index.html") Home
+		+nav_item( "projects.html" ) Projects
+		+nav_item( "about.html", "active" ) About
+		
+	h1= title
+	
+	p Welcome to #{title}
+	
+	.row
+		.col-md-4.col-sm-6.col-xs-12
+			img(src="/images/Profile/Conner0716-6789_SQ.jpg",class="img-circle person")
+			+panel("Compassionate Conversationalist", "success")
+				p Good answers come from good questions. I believe that
+					| software is converstation with our wants and needs.
+					
+		.col-md-4.col-sm-6.col-xs-12
+			img(src="/images/Profile/Conner0716-6772_SQ.jpg",class="img-circle person")
+			+panel("Diligent Explorer", "primary")
+			
+		.col-md-4.col-sm-6.col-xs-12
+			img(src="/images/Profile/Conner0716-6909_SQ.jpg",class="img-circle person")
+			+panel("Caring father", "success")
+		
+		
+		
+		
+	
+		

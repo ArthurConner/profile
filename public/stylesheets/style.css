@@ -1,0 +1,63 @@
+body {
+  padding: 20px;
+
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+xh1, xp {
+  color: #1f1e1c;
+}
+
+
+.navbar {
+    padding-top: 125px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    xbackground-color: red;
+    xheight: 195px;
+    background-size: 100%;
+
+    background-image: url("/images/Banner/bw.jpg");
+}
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    xopacity: 0.7;
+}
+
+.panel-body{
+	background-color: #dedede;
+	color:black;
+}
+
+
+.panel-explorer   {
+   background-color: #605098;
+   color:white;
+   
+}
+
+.panel-diligent   {
+   xbackground-color: #506998;
+   background-color: #a85c58;
+   color:white;
+}
+
+
+.panel-converse   {
+   xbackground-color: #867170;
+   background-color: #a87a58;
+   color:white;
+}
+

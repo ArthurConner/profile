@@ -3,11 +3,11 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Arthur Conner Adventures' });
+  res.render('index', { title: 'Arthur Conner' });
 });
 
 router.get('/index.html', function(req, res, next) {
-  res.render('index', { title: 'Arthur Conner Adventures' });
+  res.render('index', { title: 'Arthur Conner' });
 });
 
 router.get('/projects.html', function(req, res, next) {
